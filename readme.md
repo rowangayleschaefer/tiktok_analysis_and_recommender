@@ -17,7 +17,7 @@
     <img src="https://yt3.ggpht.com/ytc/AKedOLRcwXL5heetbKNzpLCY3LOgml-72EcmpALhcvry5g=s900-c-k-c0x00ffffff-no-rj" alt="Logo" width="80" height="80">
   </a>
 
-<h2 align="center"> Title Title Title</h2>
+<h2 align="center"> tiktok creators tool</h2>
 <h4 align="center">Completed for General Assembly, 2022</h4>
 <h4 alight="center"> <a href="https://github.com/users/rowangayleschaefer/projects/4/views/2"> PROJECT KANBAN BOARD</a> </h4>
 </div>
@@ -130,6 +130,14 @@ If you use a VPN and change the GPS location on your phone, this may change what
 The location based limits were put in place in order to ensure that users would see content that was relevant and understandable to them. There are many cases where it's detrimental, and keeps users from seeing content that's a good fit for their interests and culture. For example - content being uploaded by Toronto-based creators is probably relevant, relatable, and understandable to users living in northern Michigan.
 
 If there's time, I'll explore alternative ways of clustering users without using their country as a defining characteristic.
+<br /><br />
+
+
+#### Risks & assumptions:
+
+* Since primary use of this app will be for analysis, there are not as many risks or assumptions made.
+* However, TikTok changes their algorithms often - so usefulness/relevancy of this information may decrease over time.
+* Risks and assumptions will be discussed separately for modeling section.
 
 <p align="right"> (<a href="#top">back to top</a>) </p>
 <br />
