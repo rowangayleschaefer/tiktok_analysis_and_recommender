@@ -47,13 +47,36 @@
 ```diff
 - BRAINSTORMING / TO DO:
 
-- 1. Double check all background info to see if it's changed since Feb. 
+- 1. Data is collected enough.
 
-- 2. Choose API and scrape data!!!!!
+@ PREPROC
+- 2. <1 HOUR: word encoding, pull out hashtags
++ spacy vs sklearn sugg?
 
-- 3. Exploratory EDA due on Monday?
 
-- 5. Misc question: Does this extend to hashtags? If I (in USA) follow #datatok, and NewCreator1 (in NZ, with <n followers) uploads a video with #datatok hash, can it come up in my FYP based only on use of that tag?
+
+@ BY SATURDAY NIGHT
+- 2. Exploratory viz - DONE ON SATURDAY 10PM - automated with sweetviz. https://pythonhosted.org/speedml/speedml/   https://github.com/mstaniak/autoEDA-resources
++ better libraries? faster
+
+- 3. Main analysis - data only - 2 HOURS. SHOULD NOT TAKE LONG
+
+- 4. Main analysis - interactive viz - 10 hours unless there's a faster way. low level plotly is annoying?
++ fastest way that isn't tableau?
+
+
+@ BY SUNDAY NIGHT
+- 4. Non-functional streamlit app/shell - 2 HOURS. HEX VS STREAMLIT VS PYSCRIPT figure out which will be fastest.
+
+- 5. FUNCTIONAL but ugly app - 
+
+
+
+
+
+- ONLY IF TIME
+
+- Script to postgre database (check w/ danny - may be faster.)
 
 
 ```
@@ -150,11 +173,8 @@ If there's time, I'll explore alternative ways of clustering users without using
 ```diff
 - TO DO
 
-- 1. BY SUN 5/22: Decide API wrapper, write script, get data.
-
-- 2. BY MON 5/23: All data scraped. Ask david for help if it's not working. Do some minimal EDA.
-
-- 3. BY FRI 5/27: All data cleaning and EDA done
+- 1. Data collection done enough.
+- 2. IF TIME, LATER: Script to postgre database
 
 ```
 
