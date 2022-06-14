@@ -3,10 +3,10 @@
 
 <!-- PROJECT LOGO -->
 <br />
-<div align="center">
+<!--<div align="center">
   <a href="https://github.com/rowangayleschaefer">
     <img src="https://yt3.ggpht.com/ytc/AKedOLRcwXL5heetbKNzpLCY3LOgml-72EcmpALhcvry5g=s900-c-k-c0x00ffffff-no-rj" alt="Logo" width="80" height="80">
-  </a>
+  </a>-->
 
 <h2 align="center"> TikTok Analysis & Recommender</h2>
 <h4 align="center">Completed for General Assembly, 2022</h4>
@@ -15,6 +15,10 @@
 
 <!-- ABOUT THE PROJECT -->
 
+<a href= "https://www.icloud.com/keynote/00cOYoPPZOmZjw5gyymV5e9Aw#tiktok_trends"><img src='./images/keynote.png'></a><br />
+click for keynote
+
+<br />
 
 <!-- BACKGROUND -->
 ## Background
