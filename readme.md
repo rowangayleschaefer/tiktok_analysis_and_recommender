@@ -29,6 +29,9 @@ Many people have tried to find a way around this. Changing your location on Tikt
 Another option is that until creators have a large enough following, they need to prioritize creating locally targeted content. 
 <br /><br />
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+<br />
+
 
 <!-- PROBLEM STATEMENT -->
 ## Problem Statement
@@ -61,7 +64,10 @@ Note that in the data there are a lot of extra fields that are not used. I chose
 
 In the future, collection for the remaining countries will need to be done with a virtual machine. 
 
-Note that csvs in the data folder are very redundant. When I update I intend to rework the collection, cleaning, and preprocessing steps for higher efficiency.
+Note that csvs in the data folder are redundant. When I update I intend to rework the collection, cleaning, and preprocessing steps for higher efficiency.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+<br />
 
 
 ## Data Cleaning
