@@ -22,6 +22,9 @@ click for keynote
 <!-- BACKGROUND -->
 ## Background
 
+#### This app is being created to help TikTok creators monitor the top and rising songs and hashtags by country/location. This is important due to the way that TikTok algorithm selects For You Page (FYP)  content for its users in 2022.
+
+
 If you're a new TikTok creator, your content will only be recommended on the For You Pages (FYP) of users in your OWN country, until you gain a minimum number of followers to be suggested internationally.
 
 Many people have tried to find a way around this. Changing your location on Tiktok is a complicated process that involves gps spoofing, a VPN, and having sim cards for all your target countries. 
