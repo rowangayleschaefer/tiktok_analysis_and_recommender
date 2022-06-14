@@ -18,7 +18,6 @@
 <a href= "https://www.icloud.com/keynote/00cOYoPPZOmZjw5gyymV5e9Aw#tiktok_trends"><img src='./images/keynote.png'></a><br />
 click for keynote
 
-<br />
 
 <!-- BACKGROUND -->
 ## Background
