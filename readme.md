@@ -18,7 +18,6 @@
 
 <!-- BACKGROUND -->
 ## Background
----
 
 If you're a new TikTok creator, your content will only be recommended on the For You Pages (FYP) of users in your OWN country, until you gain a minimum number of followers to be suggested internationally.
 
@@ -58,6 +57,8 @@ I ended up using TikTok-All-In-One from FastAPI to collect data.  Data collectio
 Note that in the data there are a lot of extra fields that are not used. I chose to keep them around, so I could cross check and make inference about other fields. This was necessary due to not having documentation for the API.
 
 In the future, collection for the remaining countries will need to be done with a virtual machine. 
+
+Note that csvs in the data folder are very redundant. When I update I intend to rework the collection, cleaning, and preprocessing steps for higher efficiency.
 
 
 ## Data Cleaning
