@@ -45,13 +45,21 @@ Due to the location barriers that new tiktok creators face, a solution is needed
 #### My intention is to design an app that could answer the following questions for a creator/business owner:
 
 1. What are the top trending sounds in <code>country 1</code>?
+
 2. What is the intersection of top trending sounds/hashtags in <code>country 1</code>, <code>country 2</code>, and <code>country 3</code>? 
+
 3. Lastly, I built a recommender app to explore how content might be suggested, with the removal of the location barriers. 
 
+<br />
 
 #### Risks & assumptions:
 * TikTok changes their algorithms often - so usefulness/relevancy of this information may decrease over time
-* I had limited information available about the data fields that were pulled during data collection. Some inferences were made based on context.
+
+* I had limited information available about the data fields that were pulled during data collection. Some inferences were made based on context and prior knowledge.
+
+* Third party TikTok APIs break frequently and there is a good chance that the one I have used will break; code will need an overhaul eventually.
+
+* Trends change constantly. Preprocessing steps will need to be continually re-evaluated in order for resulting analysis to hold any weight. See discussion on context for trending hashtags in the data cleaning file.
 
 
 <p align="right"> (<a href="#top">back to top</a>) </p>
