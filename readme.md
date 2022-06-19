@@ -77,18 +77,41 @@ Note that csvs in the data folder are redundant. When I update I intend to rewor
 
 
 ## Data Cleaning
-Data cleaning and preprocessing steps included filling nulls, countvectorizing hashtags, and some feature engineering (a column for FYP_location). 
+Data cleaning and preprocessing steps included filling nulls, countvectorizing hashtags, dropping a few columns that weren't useful, and some feature engineering (a column for FYP_location). 
+
+See the data cleaning and modeling files for discussion on context for trending hashtags and how inclusion or exclusion of certain hashtags was determined for this project. (#fyp, #trending, #xyzbca, etc. It's complicated.)
+In general, I decided to exclude hashtags from analysis that did not provide any new information or context. 
+
+Note that a lot of columns were intentionally pulled from that data even though they weren't used; this is due to lack of documentation and needing to cross-reference other fields for context.
 
 Data cleaning and data collection sections are being reworked; code could be simplified across entire project by optimizing data collection process. 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 <br />
 
+## Preprocessing
+Preprocessing steps differed for analysis and modeling sections of the project. Unique preprocessing steps for modeling included building out a dictionary of Gen-Z/social media-specific stopwords to reduce "noise" in the data, and preserving hashtags and @ symbol in word lemmatization.
+
+The modeling portion of this project is intended as exploratory. I built a recommender model using only the description text from each video. 
+
+For a detailed analysis of choices made for preprocessing, see the modeling.ipynb file. One thing to note is that I had to build out a fairly large dictionary of stopwords in order to keep the recommendations relevant. At this time I was not able to find a stopwords dictionary that takes gen z speech patterns and vocabulary into account.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+<br />
 
 <!-- Modeling -->
-## Modeling
+## Modeling 
 
-Unique preprocessing steps for modeling included building out a dictionary of Gen-Z/social media-specific stopwords to reduce "noise" in the data, and preserving hashtags and @ symbol in word lemmatization.
+For this section I only used countries that spoke English or a derivative of English due to existing challenges of working with multilingual data AND working with trending content from a younger age group. (ie... checking if Russian gen Z slang is being lemmatized correctly.)
+
+I did include Jamaica in my modeling since I'm somewhat familiar with Jamaican Patois. The model picked up on this quickly, and if given a video that included any patois in the description, it would return more Jamacian videos with high accuracy. 
+
+The decision to keep the patois in the countvectorizer was intentional (but that decision could *easily* be challenged -- recommended videos were "relevant" in that descriptions used similar vocabulary and speech patterns, but topics of the videos were not always similar.)
+
+
+One thing to note: even if recommending posts based on NLP and description text alone worked well, it could actually lead to more unintended consequences than simply setting hard location boundaries on creators. This is a separate  ethics conversation.
+
+
 
 Final model recommends videos based on lemmatized video description text and hashtags included in description.
 
