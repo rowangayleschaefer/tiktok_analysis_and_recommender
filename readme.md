@@ -7,21 +7,16 @@
   <a href="https://github.com/rowangayleschaefer">
     <img src="https://yt3.ggpht.com/ytc/AKedOLRcwXL5heetbKNzpLCY3LOgml-72EcmpALhcvry5g=s900-c-k-c0x00ffffff-no-rj" alt="Logo" width="80" height="80">
   </a>-->
-
-<h2 align="center"> TikTok Analysis & Recommender</h2>
-<h4 align="center">Completed for General Assembly, 2022</h4>
+<div align = "center">
+<a href= "https://www.icloud.com/keynote/00cOYoPPZOmZjw5gyymV5e9Aw#tiktok_trends"><img src='https://github.com/rowangayleschaefer/tiktok_analysis_and_recommender/blob/main/images/tiktok_white.jpeg?raw=true' width=100 height=100 border=2>
+</a>
+  <h2>TikTok Trend Analysis and Video Recommender</h2>
+  <h4>Completed for General Assembly, 2022</h4>
 </div>
-<br />
-
+<p><br />
 <!-- ABOUT THE PROJECT -->
 
-<a href= "https://www.icloud.com/keynote/00cOYoPPZOmZjw5gyymV5e9Aw#tiktok_trends"><img src='./images/keynote.png'></a><br />
-click for keynote
-
-
 <!-- BACKGROUND -->
-## Background
-
 #### This app is being created to help TikTok creators monitor the top and rising songs and hashtags by country/location. This is important due to the way that TikTok algorithm selects For You Page (FYP)  content for its users in 2022.
 
 
@@ -101,6 +96,12 @@ Data cleaning and data collection sections need rethinking; code could be simpli
 <p align="right">(<a href="#top">back to top</a>)</p>
 <br />
 
+## Presentation
+<div align="center">
+<a href= "https://www.icloud.com/keynote/00cOYoPPZOmZjw5gyymV5e9Aw#tiktok_trends"><img src='./images/keynote.png' width=550 height=320 border=2><br />
+  <center><sup>click for keynote</sup></center>
+</a>
+</div>
 
 
 <!-- LICENSE -->
