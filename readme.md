@@ -77,9 +77,9 @@ Note that csvs in the data folder are redundant. When I update I intend to rewor
 
 
 ## Data Cleaning
-Data cleaning and preprocessing steps included filling nulls, countvectorizing hashtags, and some feature enginerring (a column for FYP_location). 
+Data cleaning and preprocessing steps included filling nulls, countvectorizing hashtags, and some feature engineering (a column for FYP_location). 
 
-Data cleaning and data collection sections need rethinking; code could be simplified across entire project by optimizing data collection. 
+Data cleaning and data collection sections are being reworked; code could be simplified across entire project by optimizing data collection process. 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 <br />
@@ -87,6 +87,10 @@ Data cleaning and data collection sections need rethinking; code could be simpli
 
 <!-- Modeling -->
 ## Modeling
+
+Unique preprocessing steps for modeling included building out a dictionary of Gen-Z/social media-specific stopwords to reduce "noise" in the data, and preserving hashtags and @ symbol in word lemmatization.
+
+Final model recommends videos based on lemmatized video description text and hashtags included in description.
 
 #### Risks & assumptions:
 * The modeling portion of this project is intended as exploratory.
